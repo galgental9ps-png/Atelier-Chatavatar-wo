@@ -1,0 +1,9 @@
+.pinselia-frame{display:block;width:100%;height:100%;background-repeat:no-repeat;background-size:400% 400%;transform-origin:50% 94%;pointer-events:none;user-select:none;image-rendering:auto;backface-visibility:hidden;will-change:background-position}
+[data-state=idle]>.pinselia-frame,[data-state=idle]>.sprite>.pinselia-frame{animation:pinselia-breathe 4.4s ease-in-out infinite}
+[data-state=held]>.pinselia-frame,[data-state=held]>.sprite>.pinselia-frame{transform-origin:50% 20%;animation:pinselia-held .8s ease-in-out infinite alternate}
+[data-state=land]>.sprite>.pinselia-frame{animation:pinselia-land .2s ease-out both}
+[data-paused=true] .pinselia-frame{animation-play-state:paused!important}
+@keyframes pinselia-breathe{50%{transform:translateY(-1px)}}
+@keyframes pinselia-held{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
+@keyframes pinselia-land{from{transform:scaleY(.96)}to{transform:scaleY(1)}}
+@media(prefers-reduced-motion:reduce){.pinselia-frame{animation:none!important}}

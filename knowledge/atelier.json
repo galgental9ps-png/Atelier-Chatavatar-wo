@@ -1,0 +1,1952 @@
+{
+  "schemaVersion": 1,
+  "id": "atelier-schwarzenberger-pinselia",
+  "updatedAt": "2026-11-19",
+  "organization": {
+    "name": "Atelier Schwarzenberger",
+    "shortName": "AS",
+    "website": "https://www.atelier-schwarzenberger.de/",
+    "greeting": "Willkommen! Ich bin Pinselia, Ihre Kunstmagierin. Darf ich Ihnen Bilder zeigen, unsere Künstler vorstellen oder Sie in den Shop begleiten?",
+    "fallback": "Dazu ist noch keine geprüfte Antwort hinterlegt. Suchen Sie zum Beispiel nach „Patrik“, „Airbrush“, „Rahmen“ oder „Kontakt“ – oder fragen Sie das Atelier direkt."
+  },
+  "avatar": {
+    "name": "Pinselia",
+    "subtitle": "Ihre Kunstmagierin · Atelier Schwarzenberger",
+    "color": "#6a487a"
+  },
+  "categories": [
+    {
+      "id": "atelier",
+      "label": "Atelier",
+      "icon": "⌂"
+    },
+    {
+      "id": "kuenstler",
+      "label": "Künstler",
+      "icon": "✧"
+    },
+    {
+      "id": "bilder",
+      "label": "Bilder finden",
+      "icon": "▧"
+    },
+    {
+      "id": "werke",
+      "label": "Einzelne Werke",
+      "icon": "◈"
+    },
+    {
+      "id": "kaufen",
+      "label": "Kauf & Beratung",
+      "icon": "↗"
+    },
+    {
+      "id": "ar",
+      "label": "AR-Galerie",
+      "icon": "◇"
+    },
+    {
+      "id": "ausstellungen",
+      "label": "News & Termine",
+      "icon": "◷"
+    }
+  ],
+  "suggested": [
+    "bilder",
+    "kuenstler",
+    "shop",
+    "beratung",
+    "ar-galerie",
+    "otto-anfrage"
+  ],
+  "entries": [
+    {
+      "id": "bilder",
+      "category": "bilder",
+      "question": "Möchten Sie unsere Bilder entdecken?",
+      "answer": "Mit einem Pinselstrich öffne ich Ihnen die Bildübersicht! Dort können Sie die Werke des Ateliers durchstöbern. Suchen Sie lieber nach Künstler oder Bildformat?",
+      "keywords": [
+        "Gemälde",
+        "Bilder",
+        "Kunst kaufen",
+        "Shop",
+        "Bilda uswahl"
+      ],
+      "suggestions": [
+        "kuenstler",
+        "grosse-bilder",
+        "kleine-bilder",
+        "bild-float"
+      ],
+      "links": [
+        {
+          "label": "Alle Bilder im Shop",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Alle-Bilder-c130241146"
+        },
+        {
+          "label": "Nach Kategorien stöbern",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Kategorien-c133113293"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Alle-Bilder-c130241146",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "kuenstler",
+      "category": "kuenstler",
+      "question": "Möchten Sie unsere Künstler kennenlernen?",
+      "answer": "Drei Künstlerwege führen durch die Portfolios: Mario, Otto und Patrik Schwarzenberger. Wessen Arbeiten möchten Sie näher kennenlernen?",
+      "keywords": [
+        "Künstler",
+        "Familie",
+        "Artists",
+        "Maler",
+        "Schwarzenberger"
+      ],
+      "suggestions": [
+        "mario",
+        "otto",
+        "patrik"
+      ],
+      "links": [
+        {
+          "label": "Künstlerportfolios öffnen",
+          "url": "https://www.atelier-schwarzenberger.de/galerie"
+        },
+        {
+          "label": "Nach Künstler einkaufen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Kunstler-c130241879"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/galerie",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "shop",
+      "category": "kaufen",
+      "question": "Darf ich Sie in unseren Online-Shop führen?",
+      "answer": "Sehr gern! Im Atelier-Shop finden Sie die Kunstwerke und ihre Produktinformationen. Öffnen Sie für aktuelle Preise und Verfügbarkeit bitte das jeweilige Angebot.",
+      "keywords": [
+        "Shop",
+        "Online-Shop",
+        "kaufen",
+        "Warenkorb",
+        "Bestellung"
+      ],
+      "suggestions": [
+        "bilder",
+        "preise",
+        "otto-anfrage",
+        "beratung"
+      ],
+      "links": [
+        {
+          "label": "Online-Shop öffnen",
+          "url": "https://www.atelier-schwarzenberger.de/shop"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "atelier",
+      "category": "atelier",
+      "question": "Was ist das Atelier Schwarzenberger?",
+      "answer": "Das Atelier Schwarzenberger präsentiert unterschiedliche künstlerische Handschriften und bietet einen Online-Shop für Kunstwerke. Entdecken Sie die Portfolios und finden Sie Ihren persönlichen Zugang zur Kunst.",
+      "keywords": [
+        "Atelier",
+        "über uns",
+        "Familie",
+        "Galerie"
+      ],
+      "suggestions": [
+        "kuenstler",
+        "bilder",
+        "kontakt"
+      ],
+      "links": [
+        {
+          "label": "Atelier besuchen",
+          "url": "https://www.atelier-schwarzenberger.de/"
+        },
+        {
+          "label": "Portfolios entdecken",
+          "url": "https://www.atelier-schwarzenberger.de/galerie"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/galerie",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "kontakt",
+      "category": "atelier",
+      "question": "Wie erreiche ich das Atelier?",
+      "answer": "Für Fragen und Beratung erreichen Sie das Atelier über das Kontaktformular oder per E-Mail an patrikschwarzenberger@hotmail.de. Nennen Sie bei Bildanfragen am besten Künstler und Werktitel.",
+      "keywords": [
+        "Kontakt",
+        "Email",
+        "E-Mail",
+        "Ansprechpartner",
+        "Nachricht"
+      ],
+      "suggestions": [
+        "beratung",
+        "otto-anfrage",
+        "besuch"
+      ],
+      "links": [
+        {
+          "label": "Kontaktformular öffnen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        },
+        {
+          "label": "E-Mail schreiben",
+          "url": "mailto:patrikschwarzenberger@hotmail.de"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/kontakt",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "beratung",
+      "category": "kaufen",
+      "question": "Sie suchen ein passendes Bild für Ihr Zuhause?",
+      "answer": "Welche Größe darf es sein? Ich zeige Ihnen die Formate und Künstler. Für eine persönliche Auswahl fragen Sie das Atelier mit Angaben zu Raum, Wunschformat und bevorzugten Farben an.",
+      "keywords": [
+        "Wohnzimmer",
+        "Schlafzimmer",
+        "Büro",
+        "Praxis",
+        "Einrichtung",
+        "Empfehlung",
+        "Beratung"
+      ],
+      "suggestions": [
+        "grosse-bilder",
+        "kleine-bilder",
+        "ar-galerie",
+        "kontakt"
+      ],
+      "links": [
+        {
+          "label": "Persönliche Beratung anfragen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        },
+        {
+          "label": "Bilder entdecken",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Alle-Bilder-c130241146"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/kontakt",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "besuch",
+      "category": "atelier",
+      "question": "Kann ich das Atelier persönlich besuchen?",
+      "answer": "Für einen Besuch oder eine Besichtigung fragen Sie bitte vorab beim Atelier an. In meinem Wissenspaket sind keine bestätigten regelmäßigen Besuchszeiten hinterlegt.",
+      "keywords": [
+        "Öffnungszeiten",
+        "oeffnungszeiten",
+        "Termin",
+        "Adresse",
+        "Besichtigung",
+        "vor Ort",
+        "geöffnet"
+      ],
+      "suggestions": [
+        "kontakt",
+        "ar-galerie"
+      ],
+      "links": [
+        {
+          "label": "Besuch anfragen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/kontakt",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "webseite",
+      "category": "atelier",
+      "question": "Wo finde ich die offizielle Atelier-Webseite?",
+      "answer": "Hier führt mein Zauberpinsel zur offiziellen Webseite: www.atelier-schwarzenberger.de. Von dort gelangen Sie zu Portfolios, Shop, Kontakt und Neuigkeiten.",
+      "keywords": [
+        "Website",
+        "Webseite",
+        "Homepage",
+        "Domain"
+      ],
+      "suggestions": [
+        "atelier",
+        "shop",
+        "kontakt"
+      ],
+      "links": [
+        {
+          "label": "Offizielle Webseite öffnen",
+          "url": "https://www.atelier-schwarzenberger.de/"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "patrik",
+      "category": "kuenstler",
+      "question": "Wer ist Patrik Schwarzenberger?",
+      "answer": "Patrik Schwarzenberger kommt aus Augsburg. Sein Portfolio beschreibt eine intuitive, experimentelle Malweise mit Farben, Strukturen und Kompositionen. Seine Arbeiten verbinden abstrakte Elemente mit strukturierten Mustern.",
+      "keywords": [
+        "Patrik",
+        "Schwarzenberger.P",
+        "P.",
+        "abstrakt",
+        "Augsburg"
+      ],
+      "suggestions": [
+        "patrik-stil",
+        "patrik-arbeitsweise",
+        "patrik-shop"
+      ],
+      "links": [
+        {
+          "label": "Patriks Portfolio ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/patrik-schwarzenberger"
+        },
+        {
+          "label": "Patriks Werke im Shop",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-c130242805"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/patrik-schwarzenberger",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "patrik-stil",
+      "category": "kuenstler",
+      "question": "Was prägt Patriks künstlerischen Stil?",
+      "answer": "Dynamik, Balance und Tiefe prägen die im Portfolio beschriebene Bildsprache. Abstraktion und Muster lassen dabei Raum für eigene Assoziationen und Interpretationen.",
+      "keywords": [
+        "abstrakte Kunst",
+        "Muster",
+        "Struktur",
+        "Farbe",
+        "Stil",
+        "Interpretation"
+      ],
+      "suggestions": [
+        "patrik-arbeitsweise",
+        "patrik-shop",
+        "bild-echo"
+      ],
+      "links": [
+        {
+          "label": "Mehr über Patriks Kunst",
+          "url": "https://www.atelier-schwarzenberger.de/patrik-schwarzenberger"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/patrik-schwarzenberger",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "patrik-arbeitsweise",
+      "category": "kuenstler",
+      "question": "Wie entstehen Patriks Bilder?",
+      "answer": "Patrik beschreibt seinen kreativen Prozess als intuitiv und experimentell: Die Werke entwickeln sich ohne starre Vorgaben. Das Atelier dient ihm als Ort des Forschens und Ausprobierens.",
+      "keywords": [
+        "Prozess",
+        "Intuition",
+        "Experiment",
+        "Entstehung",
+        "Technik"
+      ],
+      "suggestions": [
+        "patrik-stil",
+        "patrik-shop"
+      ],
+      "links": [
+        {
+          "label": "Patriks Künstlerprofil",
+          "url": "https://www.atelier-schwarzenberger.de/patrik-schwarzenberger"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/patrik-schwarzenberger",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "patrik-shop",
+      "category": "kuenstler",
+      "question": "Wo sehe ich alle angebotenen Werke von Patrik?",
+      "answer": "Ich öffne Ihnen die eigene Shopkategorie von Schwarzenberger.P. Dort finden Sie die angebotenen Werke mit ihren jeweiligen Produktseiten.",
+      "keywords": [
+        "Patrik Bilder",
+        "P Bilder",
+        "Patrik kaufen",
+        "Kollektion"
+      ],
+      "suggestions": [
+        "bild-float",
+        "bild-blue-realm",
+        "bild-rubin",
+        "bild-echo"
+      ],
+      "links": [
+        {
+          "label": "Patriks Werke im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-c130242805"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-c130242805",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "mario",
+      "category": "kuenstler",
+      "question": "Wer ist Mario Schwarzenberger?",
+      "answer": "Mario Schwarzenberger malt und zeichnet seit seiner Kindheit. Auf der Künstlerübersicht nennt er besonders Porträts erfahrener Menschen als bevorzugtes Thema.",
+      "keywords": [
+        "Mario",
+        "Schwarzenberger.M",
+        "M.",
+        "Portrait",
+        "Porträt",
+        "Fotorealismus"
+      ],
+      "suggestions": [
+        "mario-technik",
+        "mario-portfolio",
+        "mario-shop"
+      ],
+      "links": [
+        {
+          "label": "Marios Portfolio entdecken",
+          "url": "https://www.atelier-schwarzenberger.de/malerei"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/galerie",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "mario-technik",
+      "category": "kuenstler",
+      "question": "Welche Techniken und Materialien zeigt Mario?",
+      "answer": "Marios Portfolio zeigt unter anderem Airbrush auf Leinwand, Acryl auf Holz und Lackarbeiten auf Metall. Die Beispiele reichen von Porträts bis zu individuell gestalteten Oberflächen.",
+      "keywords": [
+        "Airbrush",
+        "Leinwand",
+        "Holz",
+        "Metall",
+        "Acryl",
+        "Lack",
+        "Techniken"
+      ],
+      "suggestions": [
+        "mario-portfolio",
+        "mario-metall",
+        "mario-shop"
+      ],
+      "links": [
+        {
+          "label": "Techniken im Portfolio ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/malerei"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/malerei",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "mario-portfolio",
+      "category": "kuenstler",
+      "question": "Welche Porträts zeigt Marios Portfolio?",
+      "answer": "Im Portfolio finden Sie beispielsweise „Freude am Leben“, „Das Alter“, „Der Mönch“, „Das Lächeln“ und „The Older Man“. Die Seite zeigt dazu die jeweiligen Techniken.",
+      "keywords": [
+        "Freude am Leben",
+        "Das Alter",
+        "Mönch",
+        "Lächeln",
+        "The Older Man",
+        "Porträts"
+      ],
+      "suggestions": [
+        "mario-technik",
+        "mario-metall",
+        "mario-shop"
+      ],
+      "links": [
+        {
+          "label": "Marios Bilder ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/malerei"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/malerei",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "mario-metall",
+      "category": "bilder",
+      "question": "Gibt es auch Arbeiten auf Metall und Holz?",
+      "answer": "Ja. Marios Portfolio zeigt etwa „Blade“ mit Lackfarben auf Metall, „Hellboy“ mit Airbrush, Lack und Candycolor auf Metall sowie „Spiederman“ mit Acryl-Airbrush auf Holz.",
+      "keywords": [
+        "Blade",
+        "Hellboy",
+        "Spiederman",
+        "Spiderman",
+        "Candycolor",
+        "Metall",
+        "Holz",
+        "Carpainting"
+      ],
+      "suggestions": [
+        "mario-technik",
+        "mario-portfolio",
+        "kontakt"
+      ],
+      "links": [
+        {
+          "label": "Marios Materialvielfalt entdecken",
+          "url": "https://www.atelier-schwarzenberger.de/malerei"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/malerei",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "mario-shop",
+      "category": "kuenstler",
+      "question": "Wo finde ich Marios Werke im Shop?",
+      "answer": "Die Kategorie Schwarzenberger.M führt zu Marios Angeboten. Dort sind unter anderem „Geduld“ und „So Jung wie man sich fühlt“ aufgeführt.",
+      "keywords": [
+        "Mario kaufen",
+        "M Bilder",
+        "Mario Bilder"
+      ],
+      "suggestions": [
+        "bild-geduld",
+        "bild-so-jung",
+        "mario"
+      ],
+      "links": [
+        {
+          "label": "Marios Shopkategorie öffnen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-M-c130241579"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-M-c130241579",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "otto",
+      "category": "kuenstler",
+      "question": "Wer war Otto Schwarzenberger?",
+      "answer": "Otto Schwarzenberger (1954–2025) wird im Atelier mit einer Gedenkseite gewürdigt. Als Autodidakt arbeitete er über viele Jahre als freischaffender Künstler und sammelte Erfahrung mit Ausstellungen, einer eigenen Galerie und Aufträgen.",
+      "keywords": [
+        "Otto",
+        "Schwarzenberger.O",
+        "O.",
+        "Gedenken",
+        "1954",
+        "2025"
+      ],
+      "suggestions": [
+        "otto-stil",
+        "otto-anfrage",
+        "otto-shop"
+      ],
+      "links": [
+        {
+          "label": "Ottos Portfolio und Gedenken",
+          "url": "https://www.atelier-schwarzenberger.de/otto-schwarzenberger"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/otto-schwarzenberger",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "otto-stil",
+      "category": "kuenstler",
+      "question": "Welche Vielfalt zeigt Ottos Kunst?",
+      "answer": "Sein Profil beschreibt eine Bandbreite von Bauernmalerei bis zu abstrakter Kunst. Im Atelier bleibt sein künstlerisches Werk über das Portfolio und die Bildübersicht sichtbar.",
+      "keywords": [
+        "Bauernmalerei",
+        "Otto Stil",
+        "abstrakt",
+        "Tradition"
+      ],
+      "suggestions": [
+        "otto-shop",
+        "otto-anfrage",
+        "minis"
+      ],
+      "links": [
+        {
+          "label": "Ottos künstlerisches Werk ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/otto-schwarzenberger"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/otto-schwarzenberger",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "otto-anfrage",
+      "category": "kaufen",
+      "question": "Wie kann ich ein Gemälde von Otto anfragen?",
+      "answer": "Die Atelierseite weist ausdrücklich darauf hin: Ottos Gemälde sind auf Anfrage erhältlich. Schreiben Sie dem Atelier mit dem gewünschten Titel. Eine angezeigte 0-Euro-Angabe im Shop ist kein bestätigter Kaufpreis.",
+      "keywords": [
+        "Otto kaufen",
+        "Anfrage",
+        "Preis Otto",
+        "verfügbar Otto"
+      ],
+      "suggestions": [
+        "otto-shop",
+        "null-euro",
+        "kontakt"
+      ],
+      "links": [
+        {
+          "label": "Gemälde bei Atelier anfragen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        },
+        {
+          "label": "Ottos Werke ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-O-c130241881"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/otto-schwarzenberger",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "otto-shop",
+      "category": "kuenstler",
+      "question": "Wo sehe ich Ottos Gemälde?",
+      "answer": "Die Kategorie Schwarzenberger.O bündelt die Shopansichten seiner Werke, darunter „Synästhesie“, „Pinselstrich“ und „Green Snake“. Bitte klären Sie Interesse und Verfügbarkeit direkt mit dem Atelier.",
+      "keywords": [
+        "Otto Bilder",
+        "Synästhesie",
+        "Pinselstrich",
+        "Green Snake",
+        "Otto Werke"
+      ],
+      "suggestions": [
+        "otto-anfrage",
+        "minis",
+        "otto"
+      ],
+      "links": [
+        {
+          "label": "Ottos Bilder ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-O-c130241881"
+        },
+        {
+          "label": "Interesse an einem Werk mitteilen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-O-c130241881",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "raffaela",
+      "category": "kuenstler",
+      "question": "Wird Raffaela Schwarzenberger im Atelier vorgestellt?",
+      "answer": "Ja, Raffaela Schwarzenberger wird im Team des Online-Shops als Künstlerin genannt. Für Details zu ihren Arbeiten fragen Sie bitte das Atelier.",
+      "keywords": [
+        "Raffaela",
+        "Künstlerin",
+        "Team"
+      ],
+      "suggestions": [
+        "kontakt",
+        "kuenstler"
+      ],
+      "links": [
+        {
+          "label": "Team im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop"
+        },
+        {
+          "label": "Nach Raffaelas Arbeiten fragen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "kuenstler-kuerzel",
+      "category": "kuenstler",
+      "question": "Was bedeuten Schwarzenberger.P, .M und .O?",
+      "answer": "Die Künstlerkategorien im Shop sind nach Kürzeln gegliedert: P steht für Patrik, M für Mario und O für Otto Schwarzenberger. So gelangen Sie direkt zu den jeweiligen Werken.",
+      "keywords": [
+        "Kürzel",
+        "Abkürzung",
+        "P",
+        "M",
+        "O",
+        "Signatur"
+      ],
+      "suggestions": [
+        "patrik-shop",
+        "mario-shop",
+        "otto-shop"
+      ],
+      "links": [
+        {
+          "label": "Künstlerkategorien öffnen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Kunstler-c130241879"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Kunstler-c130241879",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "grosse-bilder",
+      "category": "bilder",
+      "question": "Suchen Sie ein großes Bild für Ihre Wand?",
+      "answer": "Der Shop bietet eine Kategorie für große Bilder im Bereich von 1 bis 3 Metern. Die genauen Maße stehen am einzelnen Werk. Wie wäre es mit einem Blick auf die großformatige Auswahl?",
+      "keywords": [
+        "groß",
+        "gross",
+        "große Bilder",
+        "XXL",
+        "Wand",
+        "Wohnzimmer",
+        "1m",
+        "2m",
+        "3m"
+      ],
+      "suggestions": [
+        "bild-float",
+        "bild-ritterschlag",
+        "bild-echo",
+        "ar-galerie"
+      ],
+      "links": [
+        {
+          "label": "Große Bilder ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Grosse-Bilder-1m-3meter-c138280526"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Grosse-Bilder-1m-3meter-c138280526",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "kleine-bilder",
+      "category": "bilder",
+      "question": "Darf es ein kleineres Bild sein?",
+      "answer": "Die Kategorie für kleinere Bilder ist mit 20 cm bis 1 m bezeichnet. Prüfen Sie auf der jeweiligen Produktseite die exakten Maße Ihres Favoriten.",
+      "keywords": [
+        "klein",
+        "kleine Bilder",
+        "20cm",
+        "Platz",
+        "Geschenk"
+      ],
+      "suggestions": [
+        "bild-gruener-vogel",
+        "bild-finde-das-licht",
+        "minis"
+      ],
+      "links": [
+        {
+          "label": "Kleinere Bilder entdecken",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Kleine-Bilder-20cm-1m-c138280527"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Kleine-Bilder-20cm-1m-c138280527",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "bildkategorien",
+      "category": "bilder",
+      "question": "Wie finde ich Bilder nach Größe oder Rahmen?",
+      "answer": "Öffnen Sie die Kategorienübersicht. Dort können Sie zwischen großen Bildern, kleinen Bildern und Bildern mit Rahmen wählen.",
+      "keywords": [
+        "Kategorie",
+        "Filter",
+        "Größe",
+        "Grösse",
+        "Format",
+        "Rahmen"
+      ],
+      "suggestions": [
+        "grosse-bilder",
+        "kleine-bilder",
+        "mit-rahmen"
+      ],
+      "links": [
+        {
+          "label": "Kategorien öffnen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Kategorien-c133113293"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Kategorien-c133113293",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "mit-rahmen",
+      "category": "bilder",
+      "question": "Welche Bilder werden mit Rahmen angeboten?",
+      "answer": "Dafür gibt es die Shopkategorie „mit Rahmen“. Ob ein bestimmtes Werk gerahmt ist, prüfen Sie bitte zusätzlich in seiner Produktbeschreibung.",
+      "keywords": [
+        "Rahmen",
+        "gerahmt",
+        "Bilderrahmen",
+        "mit Rahmen"
+      ],
+      "suggestions": [
+        "bildkategorien",
+        "kontakt",
+        "bild-ritterschlag"
+      ],
+      "links": [
+        {
+          "label": "Bilder mit Rahmen ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/mit-Rahmen-c138287532"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/mit-Rahmen-c138287532",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "minis",
+      "category": "bilder",
+      "question": "Möchten Sie die Miniaturen entdecken?",
+      "answer": "Die Kategorie Mini’s zeigt kleinformatige Motive wie „Kind am Zuber“, „Der kleine Postillon“ und „Apfelbaum“ von Otto. Klären Sie die Verfügbarkeit bitte mit dem Atelier.",
+      "keywords": [
+        "Minis",
+        "Miniaturen",
+        "Mini",
+        "Kind am Zuber",
+        "Apfelbaum",
+        "Postillon",
+        "Schuhmacher"
+      ],
+      "suggestions": [
+        "otto-anfrage",
+        "kleine-bilder"
+      ],
+      "links": [
+        {
+          "label": "Miniaturen ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Minis-c144965753"
+        },
+        {
+          "label": "Miniatur anfragen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Minis-c144965753",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "bild-float",
+      "category": "werke",
+      "question": "Was können Sie mir über „Float“ erzählen?",
+      "answer": "„Float“ ist ein Werk von Patrik Schwarzenberger. Die Produktbeschreibung nennt 100 × 120 cm und Acryl auf Leinwand. Aktuellen Preis, Detailbilder und Verfügbarkeit finden Sie direkt im Angebot.",
+      "keywords": [
+        "Float",
+        "Patrik",
+        "100 × 120 cm",
+        "Acryl auf Leinwand",
+        "Werk",
+        "Gemälde"
+      ],
+      "suggestions": [
+        "bild-ritterschlag",
+        "patrik-shop",
+        "ar-galerie"
+      ],
+      "links": [
+        {
+          "label": "„Float“ im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Float-p464988299"
+        },
+        {
+          "label": "Frage zu diesem Werk stellen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Float-p464988299",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "bild-ritterschlag",
+      "category": "werke",
+      "question": "Was können Sie mir über „Ritterschlag“ erzählen?",
+      "answer": "„Ritterschlag“ ist ein Werk von Patrik Schwarzenberger. Die Produktbeschreibung nennt 100 × 100 cm und Acryl auf Leinwand, ohne Rahmen. Aktuellen Preis, Detailbilder und Verfügbarkeit finden Sie direkt im Angebot.",
+      "keywords": [
+        "Ritterschlag",
+        "Patrik",
+        "100 × 100 cm",
+        "Acryl auf Leinwand, ohne Rahmen",
+        "Werk",
+        "Gemälde"
+      ],
+      "suggestions": [
+        "bild-float",
+        "patrik-shop",
+        "mit-rahmen"
+      ],
+      "links": [
+        {
+          "label": "„Ritterschlag“ im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Ritterschlag-p454032487"
+        },
+        {
+          "label": "Frage zu diesem Werk stellen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Ritterschlag-p454032487",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "bild-blue-realm",
+      "category": "werke",
+      "question": "Was können Sie mir über „Blue Realm“ erzählen?",
+      "answer": "„Blue Realm“ ist ein Werk von Patrik Schwarzenberger. Die Produktbeschreibung nennt 100 × 100 cm und Leinwand, ohne Rahmen. Aktuellen Preis, Detailbilder und Verfügbarkeit finden Sie direkt im Angebot.",
+      "keywords": [
+        "Blue Realm",
+        "Patrik",
+        "100 × 100 cm",
+        "Leinwand, ohne Rahmen",
+        "Werk",
+        "Gemälde"
+      ],
+      "suggestions": [
+        "bild-rubin",
+        "patrik-shop",
+        "ar-galerie"
+      ],
+      "links": [
+        {
+          "label": "„Blue Realm“ im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Blue-Realm-p496549570"
+        },
+        {
+          "label": "Frage zu diesem Werk stellen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Blue-Realm-p496549570",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "bild-gruener-vogel",
+      "category": "werke",
+      "question": "Was können Sie mir über „Grüner Vogel“ erzählen?",
+      "answer": "„Grüner Vogel“ ist ein Werk von Patrik Schwarzenberger. Die Produktbeschreibung nennt 50 × 60 cm und Acryl auf Leinwand. Aktuellen Preis, Detailbilder und Verfügbarkeit finden Sie direkt im Angebot.",
+      "keywords": [
+        "Grüner Vogel",
+        "Patrik",
+        "50 × 60 cm",
+        "Acryl auf Leinwand",
+        "Werk",
+        "Gemälde"
+      ],
+      "suggestions": [
+        "bild-finde-das-licht",
+        "kleine-bilder",
+        "patrik-shop"
+      ],
+      "links": [
+        {
+          "label": "„Grüner Vogel“ im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Gruner-Vogel-p484349138"
+        },
+        {
+          "label": "Frage zu diesem Werk stellen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Gruner-Vogel-p484349138",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "bild-finde-das-licht",
+      "category": "werke",
+      "question": "Was können Sie mir über „Finde das Licht“ erzählen?",
+      "answer": "„Finde das Licht“ ist ein Werk von Patrik Schwarzenberger. Die Produktbeschreibung nennt 58 × 75 cm und Acryl auf Leinwand. Aktuellen Preis, Detailbilder und Verfügbarkeit finden Sie direkt im Angebot.",
+      "keywords": [
+        "Finde das Licht",
+        "Patrik",
+        "58 × 75 cm",
+        "Acryl auf Leinwand",
+        "Werk",
+        "Gemälde"
+      ],
+      "suggestions": [
+        "bild-gruener-vogel",
+        "patrik-shop"
+      ],
+      "links": [
+        {
+          "label": "„Finde das Licht“ im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Finde-das-Licht-p484372075"
+        },
+        {
+          "label": "Frage zu diesem Werk stellen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Finde-das-Licht-p484372075",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "bild-rubin",
+      "category": "werke",
+      "question": "Was können Sie mir über „Rubin“ erzählen?",
+      "answer": "„Rubin“ ist ein Werk von Patrik Schwarzenberger. Die Produktbeschreibung nennt 100 × 80 cm und Leinwand, ohne Rahmen. Aktuellen Preis, Detailbilder und Verfügbarkeit finden Sie direkt im Angebot.",
+      "keywords": [
+        "Rubin",
+        "Patrik",
+        "100 × 80 cm",
+        "Leinwand, ohne Rahmen",
+        "Werk",
+        "Gemälde"
+      ],
+      "suggestions": [
+        "bild-blue-realm",
+        "bild-gold-rush",
+        "patrik-shop"
+      ],
+      "links": [
+        {
+          "label": "„Rubin“ im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Rubin-p495093614"
+        },
+        {
+          "label": "Frage zu diesem Werk stellen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Rubin-p495093614",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "bild-gold-rush",
+      "category": "werke",
+      "question": "Was können Sie mir über „Gold Rush“ erzählen?",
+      "answer": "„Gold Rush“ ist ein Werk von Patrik Schwarzenberger. Die Produktbeschreibung nennt 50 × 100 cm und Leinwand, ohne Rahmen. Aktuellen Preis, Detailbilder und Verfügbarkeit finden Sie direkt im Angebot.",
+      "keywords": [
+        "Gold Rush",
+        "Patrik",
+        "50 × 100 cm",
+        "Leinwand, ohne Rahmen",
+        "Werk",
+        "Gemälde"
+      ],
+      "suggestions": [
+        "bild-rubin",
+        "patrik-shop"
+      ],
+      "links": [
+        {
+          "label": "„Gold Rush“ im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Gold-Rush-p492144527"
+        },
+        {
+          "label": "Frage zu diesem Werk stellen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Gold-Rush-p492144527",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "bild-echo",
+      "category": "werke",
+      "question": "Was können Sie mir über „Echo der Gedanken“ erzählen?",
+      "answer": "„Echo der Gedanken“ ist ein Werk von Patrik Schwarzenberger. Die Produktbeschreibung nennt 100 × 100 cm und Leinwand, ohne Rahmen. Aktuellen Preis, Detailbilder und Verfügbarkeit finden Sie direkt im Angebot.",
+      "keywords": [
+        "Echo der Gedanken",
+        "Patrik",
+        "100 × 100 cm",
+        "Leinwand, ohne Rahmen",
+        "Werk",
+        "Gemälde"
+      ],
+      "suggestions": [
+        "bild-blue-realm",
+        "patrik-stil"
+      ],
+      "links": [
+        {
+          "label": "„Echo der Gedanken“ im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Echo-der-Gedanken-Schwarzenberger-P-p724678835"
+        },
+        {
+          "label": "Frage zu diesem Werk stellen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Echo-der-Gedanken-Schwarzenberger-P-p724678835",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "bild-so-jung",
+      "category": "werke",
+      "question": "Was können Sie mir über „So Jung wie man sich fühlt“ erzählen?",
+      "answer": "„So Jung wie man sich fühlt“ ist ein Werk von Mario Schwarzenberger. Die Produktbeschreibung nennt 80 × 60 cm und Leinwand, ohne Rahmen. Aktuellen Preis, Detailbilder und Verfügbarkeit finden Sie direkt im Angebot.",
+      "keywords": [
+        "So Jung wie man sich fühlt",
+        "Mario",
+        "80 × 60 cm",
+        "Leinwand, ohne Rahmen",
+        "Werk",
+        "Gemälde"
+      ],
+      "suggestions": [
+        "bild-geduld",
+        "mario-shop"
+      ],
+      "links": [
+        {
+          "label": "„So Jung wie man sich fühlt“ im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-M-So-Jung-wie-man-sich-fuhlt-p492126696"
+        },
+        {
+          "label": "Frage zu diesem Werk stellen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-M-So-Jung-wie-man-sich-fuhlt-p492126696",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "bild-geduld",
+      "category": "werke",
+      "question": "Was können Sie mir über „Geduld“ erzählen?",
+      "answer": "„Geduld“ ist ein Werk von Mario Schwarzenberger. Die Produktbeschreibung nennt 80 × 60 cm und Leinwand, ohne Rahmen. Aktuellen Preis, Detailbilder und Verfügbarkeit finden Sie direkt im Angebot.",
+      "keywords": [
+        "Geduld",
+        "Mario",
+        "80 × 60 cm",
+        "Leinwand, ohne Rahmen",
+        "Werk",
+        "Gemälde"
+      ],
+      "suggestions": [
+        "bild-so-jung",
+        "mario-shop"
+      ],
+      "links": [
+        {
+          "label": "„Geduld“ im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-M-Geduld-p496499081"
+        },
+        {
+          "label": "Frage zu diesem Werk stellen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-M-Geduld-p496499081",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "quadratische-bilder",
+      "category": "bilder",
+      "question": "Suchen Sie ein quadratisches Format?",
+      "answer": "Als Einstieg können Sie „Blue Realm“ öffnen: Die Produktbeschreibung nennt ein Format von 100 × 100 cm. Ich zeige Ihnen gern auch weitere Werke.",
+      "keywords": [
+        "quadratisch",
+        "Quadrat",
+        "100x100",
+        "100 × 100"
+      ],
+      "suggestions": [
+        "bild-blue-realm",
+        "bild-ritterschlag",
+        "bild-echo"
+      ],
+      "links": [
+        {
+          "label": "Blue Realm im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Blue-Realm-p496549570"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Blue-Realm-p496549570",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "hochformat",
+      "category": "bilder",
+      "question": "Wo finde ich ein schmales Hochformat?",
+      "answer": "„Gold Rush“ wird mit 50 × 100 cm beschrieben. Sehen Sie sich die Produktbilder an und vergleichen Sie die Maße mit Ihrer Wand.",
+      "keywords": [
+        "hochkant",
+        "schmal",
+        "Hochformat",
+        "50x100"
+      ],
+      "suggestions": [
+        "bild-gold-rush",
+        "grosse-bilder",
+        "ar-galerie"
+      ],
+      "links": [
+        {
+          "label": "Gold Rush ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Gold-Rush-p492144527"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Gold-Rush-p492144527",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "leinwand",
+      "category": "bilder",
+      "question": "Gibt es Acrylbilder auf Leinwand?",
+      "answer": "Ja. Bei „Grüner Vogel“ von Patrik nennt die Produktbeschreibung Acryl auf Leinwand im Format 50 × 60 cm.",
+      "keywords": [
+        "Acryl",
+        "Leinwand",
+        "Material",
+        "Gemälde"
+      ],
+      "suggestions": [
+        "bild-gruener-vogel",
+        "bild-float",
+        "bild-finde-das-licht"
+      ],
+      "links": [
+        {
+          "label": "Acrylbild im Shop ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Gruner-Vogel-p484349138"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Gruner-Vogel-p484349138",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "preise",
+      "category": "kaufen",
+      "question": "Wo finde ich die aktuellen Preise?",
+      "answer": "Öffnen Sie bitte das einzelne Werk im Online-Shop. Dort stehen die jeweils angezeigten Preise. Für Ottos Gemälde kontaktieren Sie das Atelier direkt.",
+      "keywords": [
+        "Preis",
+        "Preise",
+        "Kosten",
+        "Euro",
+        "Budget",
+        "teuer",
+        "günstig"
+      ],
+      "suggestions": [
+        "shop",
+        "otto-anfrage",
+        "verfuegbarkeit"
+      ],
+      "links": [
+        {
+          "label": "Angebote und Preise prüfen",
+          "url": "https://www.atelier-schwarzenberger.de/shop"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "verfuegbarkeit",
+      "category": "kaufen",
+      "question": "Ist mein Wunschbild noch erhältlich?",
+      "answer": "Den aktuellen Angebotsstand prüfen Sie auf der Produktseite. Für eine verbindliche Auskunft, insbesondere zu Ottos Bildern, fragen Sie das Atelier mit dem Werktitel an.",
+      "keywords": [
+        "Verfügbarkeit",
+        "erhältlich",
+        "Bestand",
+        "ausverkauft",
+        "lieferbar"
+      ],
+      "suggestions": [
+        "kontakt",
+        "otto-anfrage",
+        "shop"
+      ],
+      "links": [
+        {
+          "label": "Verfügbarkeit anfragen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        },
+        {
+          "label": "Shop öffnen",
+          "url": "https://www.atelier-schwarzenberger.de/shop"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/kontakt",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "null-euro",
+      "category": "kaufen",
+      "question": "Warum stehen bei manchen Bildern 0 Euro?",
+      "answer": "Bei Ottos Shopansichten erscheinen teilweise 0-Euro-Angaben und Ausverkauft-Hinweise. Gleichzeitig steht dort, dass seine Gemälde auf Anfrage erhältlich sind. Fragen Sie deshalb den konkreten Preis und Angebotsstand direkt an.",
+      "keywords": [
+        "0 Euro",
+        "0€",
+        "kostenlos",
+        "gratis",
+        "Null",
+        "ausverkauft"
+      ],
+      "suggestions": [
+        "otto-anfrage",
+        "kontakt"
+      ],
+      "links": [
+        {
+          "label": "Preis und Verfügbarkeit anfragen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        },
+        {
+          "label": "Ottos Shopkategorie",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-O-c130241881"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-O-c130241881",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "bestellen",
+      "category": "kaufen",
+      "question": "Wie bestelle ich ein Bild?",
+      "answer": "Wählen Sie ein Werk im Online-Shop und folgen Sie den dort angebotenen Bestellschritten. Für Werke auf Anfrage nutzen Sie bitte den Kontakt zum Atelier.",
+      "keywords": [
+        "bestellen",
+        "Bestellung",
+        "bezahlen",
+        "Kauf",
+        "Kasse"
+      ],
+      "suggestions": [
+        "shop",
+        "otto-anfrage",
+        "kontakt"
+      ],
+      "links": [
+        {
+          "label": "Zum Online-Shop",
+          "url": "https://www.atelier-schwarzenberger.de/shop"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "versand",
+      "category": "kaufen",
+      "question": "Wo stehen Versandkosten und Lieferzeit?",
+      "answer": "Prüfen Sie die Angaben direkt am gewünschten Werk und im Bestellvorgang. Die Produktseite von „Float“ nennt Versand innerhalb Deutschlands; für andere Ziele fragen Sie bitte das Atelier.",
+      "keywords": [
+        "Versand",
+        "Lieferung",
+        "Lieferzeit",
+        "Versandkosten",
+        "Deutschland",
+        "Ausland"
+      ],
+      "suggestions": [
+        "kontakt",
+        "shop"
+      ],
+      "links": [
+        {
+          "label": "Produktangaben zu Float",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Float-p464988299"
+        },
+        {
+          "label": "Versandziel anfragen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/shop/Schwarzenberger-P-Float-p464988299",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "zahlung",
+      "category": "kaufen",
+      "question": "Welche Zahlungsarten kann ich nutzen?",
+      "answer": "In meinem Paket sind keine bestätigten aktuellen Zahlungsarten hinterlegt. Die angebotenen Optionen sehen Sie im Bestellvorgang; bei Fragen hilft das Atelier.",
+      "keywords": [
+        "Zahlung",
+        "Zahlungsarten",
+        "PayPal",
+        "Kreditkarte",
+        "Überweisung",
+        "Rechnung"
+      ],
+      "suggestions": [
+        "bestellen",
+        "kontakt"
+      ],
+      "links": [
+        {
+          "label": "Shop öffnen",
+          "url": "https://www.atelier-schwarzenberger.de/shop"
+        },
+        {
+          "label": "Zahlungsfrage stellen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/kontakt",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "geschenk",
+      "category": "kaufen",
+      "question": "Ich suche Kunst als Geschenk – wo fange ich an?",
+      "answer": "Als Einstieg zeige ich Ihnen die kleineren Bilder oder die Auswahl nach Künstlern. Für eine persönliche Geschenkberatung können Sie das Atelier kontaktieren.",
+      "keywords": [
+        "Geschenk",
+        "Geburtstag",
+        "Weihnachten",
+        "schenken"
+      ],
+      "suggestions": [
+        "kleine-bilder",
+        "kuenstler",
+        "beratung"
+      ],
+      "links": [
+        {
+          "label": "Kleinere Bilder entdecken",
+          "url": "https://www.atelier-schwarzenberger.de/shop/Kleine-Bilder-20cm-1m-c138280527"
+        },
+        {
+          "label": "Geschenkberatung anfragen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/kontakt",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "auftragskunst",
+      "category": "kaufen",
+      "question": "Kann ich eine individuelle Arbeit anfragen?",
+      "answer": "Eine Anfrage mit Motiv, Größe und gewünschter Technik können Sie an das Atelier senden. Ob ein neuer Auftrag möglich ist und zu welchen Konditionen, bestätigt Ihnen das Atelier direkt.",
+      "keywords": [
+        "Auftragsarbeit",
+        "Auftragskunst",
+        "Wunschbild",
+        "Auftrag",
+        "individuell",
+        "Portrait bestellen"
+      ],
+      "suggestions": [
+        "mario-technik",
+        "kontakt"
+      ],
+      "links": [
+        {
+          "label": "Individuelle Arbeit anfragen",
+          "url": "https://www.atelier-schwarzenberger.de/kontakt"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/kontakt",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "ar-galerie",
+      "category": "ar",
+      "question": "Möchten Sie Kunst virtuell in Ihrem Raum ansehen?",
+      "answer": "Die Atelierseite verlinkt eine AR-Galerie. Dort können Sie ein angebotenes Gemälde auswählen und es mit einem kompatiblen Smartphone virtuell im Raum platzieren.",
+      "keywords": [
+        "AR",
+        "Augmented Reality",
+        "virtuell",
+        "Raum",
+        "Wand",
+        "Vorschau",
+        "3D"
+      ],
+      "suggestions": [
+        "ar-iphone",
+        "ar-android",
+        "ar-desktop"
+      ],
+      "links": [
+        {
+          "label": "AR-Galerie starten",
+          "url": "https://galgental9ps-png.github.io/atelier-api/ar-lite.html"
+        },
+        {
+          "label": "AR-Art auf der Atelierseite",
+          "url": "https://www.atelier-schwarzenberger.de/Ar-Art"
+        }
+      ],
+      "sourceUrl": "https://galgental9ps-png.github.io/atelier-api/ar-lite.html",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "ar-iphone",
+      "category": "ar",
+      "question": "Wie öffne ich die AR-Galerie auf dem iPhone?",
+      "answer": "Öffnen Sie die Galerie in Safari, wählen Sie ein Bild und tippen Sie auf „In AR ansehen (iOS)“. Auf unterstützten Geräten startet Quick Look.",
+      "keywords": [
+        "iPhone",
+        "iPad",
+        "iOS",
+        "Safari",
+        "Quick Look",
+        "Apple"
+      ],
+      "suggestions": [
+        "ar-android",
+        "ar-galerie"
+      ],
+      "links": [
+        {
+          "label": "AR-Galerie für iOS öffnen",
+          "url": "https://galgental9ps-png.github.io/atelier-api/ar-lite.html"
+        }
+      ],
+      "sourceUrl": "https://galgental9ps-png.github.io/atelier-api/ar-lite.html",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "ar-android",
+      "category": "ar",
+      "question": "Wie nutze ich die AR-Galerie unter Android?",
+      "answer": "Öffnen Sie die Galerie in Chrome, wählen Sie ein Bild und nutzen Sie „In AR ansehen (Android)“. Auf kompatiblen Geräten startet Scene Viewer.",
+      "keywords": [
+        "Android",
+        "Chrome",
+        "Scene Viewer",
+        "Samsung",
+        "Smartphone"
+      ],
+      "suggestions": [
+        "ar-iphone",
+        "ar-galerie"
+      ],
+      "links": [
+        {
+          "label": "AR-Galerie für Android öffnen",
+          "url": "https://galgental9ps-png.github.io/atelier-api/ar-lite.html"
+        }
+      ],
+      "sourceUrl": "https://galgental9ps-png.github.io/atelier-api/ar-lite.html",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "ar-desktop",
+      "category": "ar",
+      "question": "Kann ich die Galerie auch am Computer ansehen?",
+      "answer": "Die AR-Seite bietet zusätzlich eine optionale 3D-Vorschau im Browser. Für das Platzieren im eigenen Raum verweist sie auf die Smartphone-Schaltflächen.",
+      "keywords": [
+        "Computer",
+        "PC",
+        "Desktop",
+        "3D Vorschau",
+        "Browser"
+      ],
+      "suggestions": [
+        "ar-galerie",
+        "ar-iphone",
+        "ar-android"
+      ],
+      "links": [
+        {
+          "label": "Galerie im Browser ansehen",
+          "url": "https://galgental9ps-png.github.io/atelier-api/ar-lite.html"
+        }
+      ],
+      "sourceUrl": "https://galgental9ps-png.github.io/atelier-api/ar-lite.html",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "news",
+      "category": "ausstellungen",
+      "question": "Wo finde ich Neuigkeiten und Ausstellungen?",
+      "answer": "Die News-Seite sammelt Meldungen zu Gemälden, Ausstellungen und Aktionen. Prüfen Sie das jeweilige Veranstaltungsdatum: Auch vergangene Termine bleiben dort sichtbar.",
+      "keywords": [
+        "News",
+        "Neuigkeiten",
+        "Ausstellung",
+        "Termine",
+        "Veranstaltungen"
+      ],
+      "suggestions": [
+        "ausstellung-tva",
+        "ausstellung-waltraud",
+        "aktionen"
+      ],
+      "links": [
+        {
+          "label": "Atelier-News lesen",
+          "url": "https://www.atelier-schwarzenberger.de/news"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/news",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "ausstellung-tva",
+      "category": "ausstellungen",
+      "question": "Gab es eine Ausstellung im Turnverein Augsburg?",
+      "answer": "Ja. Die News-Seite dokumentiert eine Ausstellung vom 12. September bis 8. Oktober 2022 im Turnverein Augsburg mit Werken von Patrik und Otto. Dieser Termin liegt in der Vergangenheit.",
+      "keywords": [
+        "TVA",
+        "Turnverein Augsburg",
+        "Treppenhaus",
+        "2022",
+        "Gabelsberger"
+      ],
+      "suggestions": [
+        "news",
+        "kuenstler"
+      ],
+      "links": [
+        {
+          "label": "Historische Meldung ansehen",
+          "url": "https://www.atelier-schwarzenberger.de/news"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/news",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "ausstellung-waltraud",
+      "category": "ausstellungen",
+      "question": "Was war die kleinste Ausstellung Augsburgs?",
+      "answer": "Die Atelier-News nennen eine Ausstellung vom 23. Juni bis 7. Juli 2025 bei Waltraud’s Bagels & Coffee am Moritzplatz 1 in Augsburg. Es handelt sich um einen vergangenen Termin.",
+      "keywords": [
+        "Waltraud",
+        "Bagels",
+        "Coffee",
+        "Moritzplatz",
+        "2025",
+        "kleinste Ausstellung"
+      ],
+      "suggestions": [
+        "news",
+        "kontakt"
+      ],
+      "links": [
+        {
+          "label": "Meldung zur Ausstellung lesen",
+          "url": "https://www.atelier-schwarzenberger.de/news"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/news",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "aktionen",
+      "category": "ausstellungen",
+      "question": "Gibt es gerade einen Rabattcode?",
+      "answer": "Ein aktuell gültiger Rabatt ist in meinem Wissenspaket nicht bestätigt. Bitte prüfen Sie die datierten Meldungen und die Angaben im Shop oder fragen Sie das Atelier.",
+      "keywords": [
+        "Rabatt",
+        "Gutschein",
+        "Code",
+        "Aktion",
+        "Sale",
+        "NEW2026",
+        "Weihnachten24"
+      ],
+      "suggestions": [
+        "shop",
+        "news",
+        "kontakt"
+      ],
+      "links": [
+        {
+          "label": "Aktuelle Shopangaben prüfen",
+          "url": "https://www.atelier-schwarzenberger.de/shop"
+        }
+      ],
+      "sourceUrl": "https://www.atelier-schwarzenberger.de/",
+      "verifiedAt": "2026-11-15",
+      "reviewAfter": "2026-12-15",
+      "validFrom": "",
+      "validUntil": "",
+      "enabled": true,
+      "priority": 50
+    }
+  ]
+}
